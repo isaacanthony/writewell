@@ -34,7 +34,7 @@ a:hover {
 	width: 60%;
 }
 
-.about-page a img:hover {
+#about-page a img:hover {
 	box-shadow: inset 0 2px 3px black, 0 0 10px black;
 }
 
@@ -109,8 +109,4 @@ blockquote {
 
 .page.active {
 	display: inherit;
-}
-
-.footer-li.active {
-	color: #333;
 }

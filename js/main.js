@@ -5,13 +5,11 @@ var render = function () {
 
   $('.nav-li').removeClass('active');
   $('.page').removeClass('active');
-  $('.footer-li').removeClass('active');
 
-  if ($(page).length == 0) { page = '#home'; }
+  if ($(page + '-nav').length == 0) { page = '#home'; }
 
   $(page + '-nav').addClass('active');
-  $(page).addClass('active');
-  $(page + '-footer').addClass('active');
+  $(page + '-page').addClass('active');
 };
 
 $(document).ready(function () {
