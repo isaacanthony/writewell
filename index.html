@@ -1,4 +1,158 @@
 <!doctype html>
 <html>
-  <h1>Testing 123</h1>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Well</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src= "js/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <br>
+        <a href="#"><img class="img-logo" src="img/writewell.png" alt="Write Well Logo"></a>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="nav nav-tabs nav-justified nav-collapse">
+          <li class="nav-li" id="home-nav"><a href="#"><h4 class="nav-item"><span class="glyphicon glyphicon-home"></span> Home Page</h4></a></li>
+          <li class="nav-li" id="about-nav"><a href="#about"><h4 class="nav-item"><span class="glyphicon glyphicon-user"></span> About Iris</h4></a></li>
+          <li class="nav-li" id="how-nav"><a href="#how"><h4 class="nav-item"><span class="glyphicon glyphicon-question-sign"></span> How it Works</h4></a></li>
+          <li class="nav-li" id="submit-nav"><a href="#submit"><h4 class="nav-item"><span class="glyphicon glyphicon-pencil"></span> Submit Writing</h4></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="page" id="home">
+      <div class="hidden-xs"><br>
+        <div id="home-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#home-carousel" data-slide-to="1"></li>
+            <li data-target="#home-carousel" data-slide-to="2"></li>
+            <li data-target="#home-carousel" data-slide-to="3"></li>
+            <li data-target="#home-carousel" data-slide-to="4"></li>
+            <li data-target="#home-carousel" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/isabelallende.png" alt="Isabel Allende Background">
+              <div class="carousel-caption">
+                <blockquote class="pull-right"><p class="lead">"Write what should not be forgotten."<br>― Isabel Allende</p></blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/jamesmichener.png" alt="James Michener Background">
+              <div class="carousel-caption carousel-caption-left">
+                <blockquote><p class="lead">"I love the swirl and swing of words as they tangle with human emotions."<br>― James A. Michener</p></blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/jackkerouac.png" alt="Jack Kerouac Background">
+              <div class="carousel-caption">
+                <blockquote class="pull-right"><p class="lead">"One day I will find the right words, and they will be simple." ― Jack Kerouac</p></blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/williamzinsser.png" alt="William Zinsser Background">
+              <div class="carousel-caption carousel-caption-left">
+                <blockquote><p class="lead">"Clutter is the disease of American writing." ― William Zinsser</p></blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/antonchekhov.png" alt="Anton Chekhov Background">
+              <div class="carousel-caption">
+                <blockquote class="pull-right"><p class="lead">"Don't tell me the moon is shining; show me the glint of light on broken glass."<br>― Anton Chekhov</p></blockquote>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/anaisnin.png" alt="Anaïs Nin Background">
+              <div class="carousel-caption carousel-caption-left">
+                <blockquote><p class="lead">"We write to taste life twice, in the moment and in retrospect." ― Anaïs Nin</p></blockquote>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#home-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#home-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div> <!-- hidden-xs -->
+      <br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="text-center">
+            <img class="img-circle" src="img/pens.png" alt="Pens Close-Up">
+          </div>
+          <h3>So you want to:</h3>
+          <ul class="so-you-want-to-list">
+            <li>Write a book?</li>
+            <li>Get published across multiples of mediums?</li>
+            <li>Help with your kid's college essay?</li>
+            <li>Write a winning proposal for a new business opportunity?</li>
+            <li>Wow a potential employer with a concise and charismatic cover letter and resume?</li>
+            <li>Deliver a dynamic and inspirational speech?</li>
+          </ul>
+          <p>Do you just want to write better, period?</p>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center">
+            <img class="img-circle" src="img/writinggirl.png" alt="Writing Girl">
+          </div>
+          <h3>The Mission:</h3>
+          <p>The mission of Write Well is to steer you through cliche-ridden and clunky sentences  into clear, powerful, attention-grabbing language that reveals and markets the best of you.</p>
+          <br><br>
+          <div class="text-center">
+            <a href="#submit"><button class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-pencil"></span> Submit Writing</button></a>
+          </div>
+          <br><br>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center">
+            <img class="img-circle" src="img/keyboard.png" alt="Keyboard Close-Up">
+          </div>
+          <h3>Your Guide:</h3>
+          <p>Iris Krasnow is a seasoned journalist, writing professor and New York Times bestselling author who coaches private clients in all things that require the written word. She can help you with a range of documents ― anything that demands that you come off as a focused and capable STAR on the printed page.</p>
+        </div>
+      </div>
+    </div> <!-- #home -->
+
+    <div class="page" id="about">
+    </div> <!-- #about -->
+
+    <div class="page" id="how">
+    </div> <!-- #how -->
+
+    <div class="page" id="submit">
+    </div> <!-- submit -->
+
+    <div class="row">
+      <div class="col-md-8">
+        <h4>
+          <a class="footer-li" id="home-footer" href="#">Home Page</a> &middot;
+          <a class="footer-li" id="about-footer" href="#about">About Iris</a> &middot;
+          <a class="footer-li" id="how-footer" href="#how">How it Works</a> &middot;
+          <a class="footer-li" id="submit-footer" href="#submit">Submit Writing</a>
+        </h4>
+      </div>
+      <div class="col-md-4">
+        <h4 class="pull-right">&copy; 2016 Iris Krasnow<h4>
+      </div>
+    </div>
+
+    <br><br>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
