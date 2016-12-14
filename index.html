@@ -206,7 +206,7 @@
         <div class="col-md-8">
           <h3>Receive Feedback in 4 Easy Steps</h3>
           <ol>
-            <li><p>Fill out and submit the simple form found <a href="submit.php">here</a>.</li>
+            <li><p>Fill out and submit the simple form found <a href="#submit">here</a>.</li>
             <li><p>Shortly thereafter, you will receive a response email with a review of your submission, a preliminary estimate, and a PayPal invoice notice.</p></li>
             <li><p>Enter your credit card or PayPal information through PayPal's guaranteed-secure invoice service.</p></li>
             <li><p>Receive valuable feedback and corrections helping to move your paper towards its finalized form.</p></li>
@@ -226,7 +226,113 @@
     </div> <!-- #how-page -->
 
     <div class="page" id="submit-page">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Submit Writing to Iris</h1>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col-md-12">
+          <form role="form" action="mailto:iris@toad.net" method="post" enctype="multipart/form-data">
+            <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter first name" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter last name" required>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="emailAddress">Email address</label>
+                <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Enter email address" required>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="genre">Purpose of writing</label>
+                <select class="form-control" id="genre" name="genre">
+                  <option>College essay</option>
+                  <option>Cover letter</option>
+                  <option>Journal article</option>
+                  <option>Proposal</option>
+                  <option>Resume</option>
+                  <option>School writing assignment</option>
+                  <option>Speech</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="responseType">Requested response type</label>
+                <select class="form-control" id="responseType" name="responseType">
+                  <option>Proof-read paper</option>
+                  <option>Proof-read paper + Phone call</option>
+                  <option>Proof-read paper + Phone call + In-person meeting</option>
+                </select>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="comments">Comments</label>
+                <textarea class="form-control comments-area" id="comments" name="comments" placeholder="Enter comments"></textarea>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="responseDate">Requested response date</label>
+                <input type="date" class="form-control date-select" id="responseDate" name="responseDate" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="fileUpload">Upload file</label>
+                <input type="file" id="fileUpload" name="fileUpload" required>
+                <p class="help-block">Accepts DOC, DOCX, PDF, and TXT files.<br>Max filesize is 5mb.</p>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div id="captcha"></div>
+                </div>
+              </div>
+              <div class="col-md-6 text-center">
+                <div class="form-group">
+                  <br>
+                  <label>
+                    <input type="checkbox" id="isAgreedToTerms" required> I agree to all <a href="#terms">Terms and Conditions</a>.
+                  </label>
+                  <br><br>
+                  <button type="submit" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-ok"></span> Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div> <!-- #submit-page -->
+
+    <div class="page" id="terms-page">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Terms and Conditions</h1>
+        </div>
+      </div>
+    </div> <!-- #terms-page -->
 
     <br>
 

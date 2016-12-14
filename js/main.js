@@ -6,7 +6,7 @@ var render = function () {
   $('.nav-li').removeClass('active');
   $('.page').removeClass('active');
 
-  if ($(page + '-nav').length == 0) { page = '#home'; }
+  if ($(page + '-page').length == 0) { page = '#home'; }
 
   $(page + '-nav').addClass('active');
   $(page + '-page').addClass('active');

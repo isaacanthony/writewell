@@ -16,6 +16,14 @@ a:hover {
 	text-decoration: none;
 }
 
+.page {
+	display: none;
+}
+
+.page.active {
+	display: inherit;
+}
+
 .nav-item {
 	font-size: 22px;
 }
@@ -101,12 +109,4 @@ blockquote {
 
 .so-you-want-to-list {
 	font-size: 16px;
-}
-
-.page {
-	display: none;
-}
-
-.page.active {
-	display: inherit;
 }
